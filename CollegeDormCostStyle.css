@@ -1,0 +1,75 @@
+.button {
+	-fx-font-size:11.5pt;
+	-fx-font-weight: 900;
+	-fx-text-fill: white;
+	-fx-color: indianred;
+	-fx-border-color: indianred;
+}
+
+.check-box {
+	-fx-text-fill: darkslateblue;
+}
+
+.check-box > .box {
+	-fx-outer-border: darkslateblue;
+}
+
+.check-box:selected > .box {
+	-fx-background-color: darkslateblue;
+	-fx-mark-color: white;
+}
+
+.label-blue {
+	-fx-font-size:11pt;
+	-fx-font-weight: 900;
+	-fx-text-fill: white;
+	-fx-background-color: darkslateblue;
+	-fx-border-color: darkslateblue;
+}
+
+
+.label-green {
+	-fx-font-size:11pt;
+	-fx-font-weight: 900;
+	-fx-text-fill: white;
+	-fx-background-color: green;
+	-fx-border-color: green;
+}
+
+.label-bold {
+	-fx-font-size:11pt;
+	-fx-font-weight: bolder;
+	-fx-background-color: white;
+	-fx-border-style: solid;
+	-fx-border-color: indianred;
+	-fx-border-width: 0.5px;
+}
+
+.menu {
+	-fx-font-size:11pt;
+	-fx-font-weight: 900;
+}
+
+.menu:showing, .menu:hover {
+    -fx-background-color: dodgerblue;
+}
+
+.menu:show-mnemonics > .mnemonic-underline{
+    -fx-stroke: -fx-text-base-color;
+}
+
+.radio-menu-item:focused{
+    -fx-background-color: dodgerblue;
+}
+
+.radio-menu-item:hover {
+	-fx-background-color: dodgerblue;
+}
+
+.slider {
+	-fx-color: lightgreen;
+	-fx-fill-color: white;
+	-fx-slider-color: black;
+	-fx-width: 5px;
+	-fx-control-inner-background: lightyellow;
+}
